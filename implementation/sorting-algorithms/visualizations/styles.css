@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    background-color: blue;
+    color: #fff;
+    padding: 1rem .5rem;
+  
+}
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.navbar .items{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo{
+    font-size: 1.5rem;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.bars{
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.column{
+    margin: 0 1px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    margin: 0 5px;
+}
+
+.compare{
+    background-color: red;
+}
+
