@@ -15,10 +15,18 @@
                 Sorting Algorithms Visualizations
             </div>
             <div class="items">
+                <div>
+                    <select name="Algorithms" id="algorithms">
+                        <option value="Insertion-sort">Insertion sort</option>
+                        <option value="Selection-sort">Selection sort</option>
+                        <option value="Bubble-sort" selected>Bubble sort</option>
+                        <option value="Merge-sort">Merge sort</option>
+                      </select>
+                </div>
                 <ul>
                     <li>
-                        <button id="bubble-sort">
-                            Bubble sort
+                        <button id="sort">
+                            Sort
                         </button>
                     </li>
                 </ul>
@@ -30,6 +38,11 @@
     </nav>
 
     <main>
+        <div class="range-slider">
+            <div class="slidecontainer">
+                <input type="range" min="10" max="300" value="300" class="slider" id="myRange" > 
+              </div>
+        </div>
         <div class="container">
             <div class="bars">
 
